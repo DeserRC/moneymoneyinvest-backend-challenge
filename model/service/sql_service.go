@@ -16,7 +16,7 @@ func InitConnection(folder string) error {
 		}
 	}
 
-	path := folder + "/enterprises.db"
+	path := folder + "/enterprises.sqlite"
 	connection, err := sql.Open("sqlite3", path)
 
 	if err != nil {
