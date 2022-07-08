@@ -13,7 +13,7 @@ func InitLogger(folder string) error {
 	config := zap.NewProductionEncoderConfig()
 
 	config.EncodeTime = zapcore.TimeEncoderOfLayout("2006-01-02 15:04:05")
-	config.ConsoleSeparator = ""
+	config.ConsoleSeparator = " "
 
 	fileEncoder := zapcore.NewConsoleEncoder(config)
 	consoleEncoder := zapcore.NewConsoleEncoder(config)
