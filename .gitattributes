@@ -101,6 +101,7 @@ Dockerfile        text
 *.ipynb           text
 *.jade            text
 *.latte           text
+*.log             text
 *.mdtxt           text
 *.mdtext          text
 *.mustache        text
