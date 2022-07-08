@@ -1,0 +1,250 @@
+# Auto detect text files and perform LF normalization
+*                 text=auto
+
+# Java
+*.gradle          text diff=java
+*.groovy          text diff=java
+*.java            text diff=java
+*.scala           text diff=java
+*.gradle.kts      text diff=kotlin
+*.kt              text diff=kotlin
+
+# Go
+*.go -text diff=golang
+
+# Web
+*.css             text diff=css
+*.scss            text diff=css
+*.htm             text diff=html
+*.html            text diff=html
+*.xhtml           text diff=html
+*.php             text diff=php
+*.py              text diff=python
+*.rb              text diff=ruby
+*.map             text -diff
+*.coffee          text
+*.df              text
+*.inc             text
+*.ini             text
+*.js              text
+*.json            text
+*.jsp             text
+*.jspf            text
+*.jspx            text
+*.jsx             text
+*.less            text
+*.ls              text
+*.od              text
+*.onlydata        text
+*.pl              text
+*.sass            text
+*.scm             text
+*.styl            text
+*.tag             text
+*.tagx            text
+*.tld             text
+*.ts              text
+*.tsx             text
+
+# Sql
+*.sql             linguist-language=sql
+*.sql             linguist-detectable=true
+*.sql             text
+
+# Docker
+Dockerfile        text
+
+# Scripts
+*.bat             text eol=crlf
+*.cdxml           text eol=crlf
+*.cmd             text eol=crlf
+*.ps1             text eol=crlf
+*.ps1x            text eol=crlf
+*.ps1xml          text eol=crlf
+*.psd1            text eol=crlf
+*.pssc            text eol=crlf
+*.psrc            text eol=crlf
+*.psm1            text eol=crlf
+*.bash            text eol=lf
+*.fish            text eol=lf
+*.sh              text eol=lf
+*.zsh             text eol=lf
+
+# Documents
+*.doc             diff=astextplain
+*.DOC             diff=astextplain
+*.docx            diff=astextplain
+*.DOCX            diff=astextplain
+*.dot             diff=astextplain
+*.DOT             diff=astextplain
+*.pdf             diff=astextplain
+*.PDF             diff=astextplain
+*.rtf             diff=astextplain
+*.RTF             diff=astextplain
+*.bibtex          text diff=bibtex
+*.markdown        text diff=markdown
+*.md              text diff=markdown
+*.mdown           text diff=markdown
+*.mdx             text diff=markdown
+*.mdwn            text diff=markdown
+*.mkd             text diff=markdown
+*.mkdn            text diff=markdown
+*.tex             text diff=tex
+*.adoc            text
+*.csv             text
+*.ejs             text
+*.erb             text
+*.haml            text
+*.handlebars      text
+*.hbs             text
+*.hbt             text
+*.ipynb           text
+*.jade            text
+*.latte           text
+*.mdtxt           text
+*.mdtext          text
+*.mustache        text
+*.njk             text
+*.phtml           text
+*.svelte          text
+*.tab             text
+*.textile         text
+*.tmpl            text
+*.tpl             text
+*.tsv             text
+*.twig            text
+*.txt             text
+*.vue             text
+AUTHORS           text
+CHANGELOG         text
+CHANGES           text
+CONTRIBUTING      text
+COPYING           text
+copyright         text
+*COPYRIGHT*       text
+INSTALL           text
+license           text
+LICENSE           text
+NEWS              text
+readme            text
+*README*          text
+TODO              text
+
+# Graphics
+*.ai              binary
+*.bmp             binary
+*.eps             binary
+*.gif             binary
+*.gifv            binary
+*.ico             binary
+*.jng             binary
+*.jp2             binary
+*.jpg             binary
+*.jpeg            binary
+*.jpx             binary
+*.jxr             binary
+*.pdf             binary
+*.png             binary
+*.psb             binary
+*.psd             binary
+*.svgz            binary
+*.tif             binary
+*.tiff            binary
+*.wbmp            binary
+*.webp            binary
+*.svg             text
+
+# Audio
+*.kar             binary
+*.m4a             binary
+*.mid             binary
+*.midi            binary
+*.mp3             binary
+*.ogg             binary
+*.ra              binary
+
+# Video
+*.3gpp            binary
+*.3gp             binary
+*.as              binary
+*.asf             binary
+*.asx             binary
+*.avi             binary
+*.fla             binary
+*.flv             binary
+*.m4v             binary
+*.mng             binary
+*.mov             binary
+*.mp4             binary
+*.mpeg            binary
+*.mpg             binary
+*.ogv             binary
+*.swc             binary
+*.swf             binary
+*.webm            binary
+
+# Fonts
+*.ttf             binary
+*.eot             binary
+*.otf             binary
+*.woff            binary
+*.woff2           binary
+
+# Configuration
+package.json      text eol=lf
+pnpm-lock.yaml    text eol=lf -diff
+*.lock            text -diff
+package-lock.json text -diff
+yarn.lock         text -diff
+*.*rc             text
+*.cnf             text
+*.conf            text
+*.config          text
+*.json            text
+*.properties      text
+*.toml            text
+*.xml             text
+*.yaml            text
+*.yml             text
+.editorconfig     text
+.env              text
+.gitattributes    text
+.gitconfig        text
+.gitignore        text
+.htaccess         text
+.prettierrc       text
+browserslist      text
+Makefile          text
+makefile          text
+
+# Archives
+*.7z              binary
+*.gz              binary
+*.rar             binary
+*.tar             binary
+*.tgz             binary
+*.zip             binary
+
+# Executables
+*.exe             binary
+*.pyc             binary
+
+# Binary
+*.class           binary
+*.dll             binary
+*.ear             binary
+*.jar             binary
+*.jks             binary
+*.so              binary
+*.war             binary
+
+# Patch
+*.patch           -text
+
+# Ignore
+*.*ignore         text
+
+# Exclude
+.gitattributes    export-ignore
+.gitignore        export-ignore
+.gitkeep          export-ignore

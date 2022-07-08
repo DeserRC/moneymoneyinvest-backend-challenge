@@ -1,0 +1,303 @@
+### Linux template
+
+# Temporary files
+.fuse_hidden*
+.nfs*
+
+# Backup files
+*~
+
+# Trash directories
+.Trash-*
+
+# KDE directories
+.directory
+
+### Windows template
+
+# Directory configuration files
+[Dd]esktop.ini
+
+# Backup files
+*.bak
+
+# Thumbnail files
+ehthumbs.db
+ehthumbs_vista.db
+Thumbs.db
+Thumbs.db:encryptable
+
+# Shortcuts files
+*.lnk
+
+# Dump files
+*.stackdump
+
+# Recycle directories
+$RECYCLE.BIN/
+
+# Installer files
+*.cab
+*.msm
+*.msp
+*.msi
+*.msix
+
+### macOS template
+
+# Temporary files
+Temporary Items
+
+# Backup files
+.com.apple.timemachine.donotpresent
+
+# Directories configuration files
+.AppleDB
+.AppleDesktop
+.AppleDouble
+.apdisk
+.DS_Store
+.LSOverride
+
+# Thumbnail files
+._*
+.VolumeIcon.icns
+Icon
+
+# Files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+
+# Recycle directories
+.Trashes
+Network Trash Folder
+
+### JetBrains template
+
+# Project files and directories
+.idea/**/contentModel.xml
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/dbnavigator.xml
+.idea/**/dynamic.xml
+.idea/**/sqlDataSources.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/workspace.xml
+.idea/**/uiDesigner.xml
+.idea
+.idea/**/dataSources
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Dependency files and directories
+*.iml
+*.ipr
+.idea/*.iml
+.idea/compiler.xml
+.idea/jarRepositories.xml
+.idea/modules.xml
+.idea/artifacts
+.idea/modules
+
+# Output files
+out/
+build/
+
+# Gradle files and directories
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Website files
+*.iws
+.idea/httpRequests
+
+# Android files
+.idea/caches/build_file_checksums.ser
+
+# MongoDB files
+.idea/**/mongoSettings.xml
+
+# Crashlytics files
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Mpeltonen directories
+.idea_modules/
+
+# Cmake directories
+cmake-build-*/
+
+# Jira files
+atlassian-ide-plugin.xml
+
+# Clojure files
+.idea/replstate.xml
+
+### Eclipse template
+
+# Temporary files
+tmp/
+
+# Project files and directories
+*~.nib
+*.launch
+*.swp
+*.tmp
+local.properties
+.loadpath
+.metadata
+.recommenders
+.settings
+
+# Output files
+bin/
+
+# Code Recommender files
+.recommenders/
+
+# Scala IDEA files
+.cache-main
+.scala_dependencies
+.worksheet
+
+# Python IDEA files
+*.pydevproject
+
+# C/C++ IDEA
+.autotools
+.cproject
+
+# PHP IDEA files
+.buildpath
+
+# Spring Tool Suite files
+.springBeans
+
+# Sbteclipse files
+.target
+
+# Tern files
+.tern-project
+
+# Texlipse files
+.texlipse
+
+# Annotation processor files
+.apt_generated/
+.apt_generated_test/
+.factorypath
+
+# External tool files
+.externalToolBuilders/
+
+### NetBeans template
+
+# Project files and directories
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+**/nbproject/private/
+
+# Output directories
+dist/
+nbbuild/
+nbdist/
+
+# Gradle directories
+.nb-gradle/
+
+### VisualStudioCode template
+
+# Temporary files
+.history/
+
+# Project files and directories
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/settings.json
+!.vscode/tasks.json
+*.code-workspace
+.vscode/*
+
+### Gradle template
+
+# Security files
+gradle.properties
+
+# Temporary files
+.gradle
+.gradletasknamecache
+
+# Dependency files
+!gradle-wrapper.jar
+
+# Output directories
+**/build/
+!src/**/build/
+
+# Gui files
+gradle-app.setting
+
+
+### Maven template
+
+# Temporary files
+dependency-reduced-pom.xml
+pom.xml.tag
+pom.xml.next
+
+# Dependency files and directories
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+
+# Backup directories
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+
+# Output directories
+buildNumber.properties
+release.properties
+target/
+
+### Bazel template
+
+# Bazel directories
+/bazel
+
+### Java template
+
+# Temporary files
+*.class
+
+# Log files
+*.log
+
+# Crash log files
+hs_err_pid*
+
+# BlueJ files
+*.ctxt
+
+# J2ME files
+.mtj.tmp/
+
+# Package files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+### Go template
+
+# Temporary files
+*.test
+
+# LiteIDE
+*.out
