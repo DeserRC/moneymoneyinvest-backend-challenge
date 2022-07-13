@@ -1,1 +1,1 @@
-# Credit request endpoint
+# Credit Request Endpoint
